@@ -23,7 +23,7 @@
   const timer = document.getElementById('timer');
 
   const TAU = Math.PI * 2;
-  const DURATION = 28; // segundos hasta que florece por completo
+  const DURATION = 12; // segundos hasta que florece por completo
   const speedOptions = [0.75, 1, 1.5, 2];
   const colorSchemes = [
     { name: 'Rosa', colors: ['#f64c7e', '#fa8cab', '#ffc3cc', '#fff0d8', '#f3a3c4', '#e54275'], dot: 'linear-gradient(135deg,#ffbad2,#d6427e)', glow: [250, 89, 137] },
